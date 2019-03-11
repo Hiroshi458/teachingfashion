@@ -9,5 +9,13 @@ A program that gives users a simple yet intuitive easy interface to look their s
 
 Week 1- understand how to use Git more fluidly.
 
+(which algorithms and code works most efficiently to decipher and understand the task of exctacting key patterns of clothing and making
+the process as easy and simple and intuitive)
+
+
+
+
+
+
 Hiroshi Irizarry
 Cara Sweeney
