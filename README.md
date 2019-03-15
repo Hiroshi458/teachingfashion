@@ -20,79 +20,18 @@ the process as easy and simple and intuitive)
 Hiroshi Irizarry
 Cara Sweeney
 
+dev2
+----------------------------
+## Week 1 (3/10 - 3/17)
 
+### What did your team do last week?
+*Set up repository
 
-package application;
-	
-import javafx.application.Application;
-import javafx.geometry.Insets;
-import javafx.geometry.Pos;
-import javafx.stage.Stage;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.VBox;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.Circle;
+### What will you do this week?
+*Create a plan for different screens
+*Formulate color matching algorithm
 
+### Any blocking issues/challenges need to be addressed?
+*Our limiting knowledge of JavaFx limits what we can create with our idea. 
+=======
 
-public class Main extends Application {
-	public static void main(String[] args) {
-		launch(args);
-	}
-	
-	@Override
-	public void start(Stage primaryStage) throws Exception {
-		VBox vb = new VBox();
-		vb.setAlignment(Pos.CENTER);
-		//create circle
-		Circle c = new Circle(10);
-		c.setStroke(Color.BLACK);
-		c.setFill(Color.BLUE);
-		
-		vb. getChildren().add(c);
-		
-		//create 2 buttons
-		HBox hb = new HBox();
-		
-		Button grow = new Button("Grow");
-		grow.setOnAction(e -> {
-			c.setRadius(c.getRadius() + 5);
-		});
-		
-		Button shrink = new Button("Shrink");
-		shrink.setOnAction(e -> {
-			c.setRadius(c.getRadius() - 5);
-		});
-		
-		Button green = new Button("Green");
-		green.setOnAction(e -> {
-		c.setStroke(Color.GREEN);
-		c.setFill(Color.GREEN);
-		});
-		
-		Button red = new Button("Red");
-		red.setOnAction(e -> {
-		c.setStroke(Color.RED);
-		c.setFill(Color.RED);
-		});
-		
-		hb.getChildren().addAll(grow, shrink, green, red);
-		hb.setSpacing(15);
-		hb.setAlignment(Pos.CENTER);
-		hb.setPadding(new Insets(15));
-		
-		vb.getChildren().add(hb);
-		
-		
-		primaryStage.setTitle("Circle");
-		primaryStage.setScene(new Scene(vb, 200, 200));
-		primaryStage.show();
-		
-		
-		
-		
-		
-	}
-	
-}
