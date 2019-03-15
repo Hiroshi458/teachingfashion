@@ -20,22 +20,21 @@ the process as easy and simple and intuitive)
 Hiroshi Irizarry
 Cara Sweeney
 
+dev2
+----------------------------
+## Week 1 (3/10 - 3/17)
 
+### What did your team do last week?
+*Set up repository
 
-package application;
-	
-import javafx.application.Application;
-import javafx.geometry.Insets;
-import javafx.geometry.Pos;
-import javafx.stage.Stage;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.VBox;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.Circle;
+### What will you do this week?
+*Create a plan for different screens
+*Formulate color matching algorithm
 
-
+### Any blocking issues/challenges need to be addressed?
+*Our limiting knowledge of JavaFx limits what we can create with our idea. 
+=======
+dev1
 public class Main extends Application {
 	public static void main(String[] args) {
 		launch(args);
@@ -96,3 +95,4 @@ public class Main extends Application {
 	}
 	
 }
+======master
