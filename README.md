@@ -9,10 +9,18 @@ A program that gives users a simple yet intuitive easy interface to look their s
 
 Week 1- understand how to use Git more fluidly.
 
+(which algorithms and code works most efficiently to decipher and understand the task of exctacting key patterns of clothing and making
+the process as easy and simple and intuitive)
+
+
+
+
+
+
 Hiroshi Irizarry
 Cara Sweeney
 
-
+dev2
 ----------------------------
 ## Week 1 (3/10 - 3/17)
 
@@ -25,3 +33,5 @@ Cara Sweeney
 
 ### Any blocking issues/challenges need to be addressed?
 *Our limiting knowledge of JavaFx limits what we can create with our idea. 
+=======
+
